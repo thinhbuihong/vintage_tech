@@ -37,7 +37,7 @@ export default function App() {
         <Login></Login>
       </Route>
 
-      <Route path="/products">
+      <Route exact path="/products">
         <Products></Products>
       </Route>
 
